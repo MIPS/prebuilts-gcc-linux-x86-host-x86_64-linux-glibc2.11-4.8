@@ -148,7 +148,7 @@ sysroot_dir () { echo "$(install_dir)/sysroot"; }
 JOBS=$(cat /proc/cpuinfo | grep -c processor)
 
 # The base URL of the Ubuntu mirror we're going to use.
-UBUNTU_MIRROR=http://mirrors.us.kernel.org
+UBUNTU_MIRROR=http://old-releases.ubuntu.com/
 
 # Ubuntu release name we want packages from. Can be a name or a number
 # (i.e. "lucid" or "10.04")
